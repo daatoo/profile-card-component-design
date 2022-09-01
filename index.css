@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div{
+    width: 80%;
+    height: 720px;
+    position: relative;
+    background-color: #19A1AE; 
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -40%;
+    margin-top: -360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rectangle{
+    width: 350px;
+    height: 374px;
+    position: absolute;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+}
+.oval{
+    width: 350px;
+    height: 120px;
+    position: absolute;
+    background-color: #41CBD3;
+    border-radius: 15px 15px 0px 0px;
+}
+.footer{
+    width: 350px;
+    height: 70px;
+    border-top: 1px solid black;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    width: 249px;
+    height: 40px;
+    display: flex;
+
+}
+.likes, .followers, .photos{
+    width: 33.33333%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+}
+p{
+    font-size: 14px;
+}
+.img{
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    left: 50%;
+    margin: -48px;
+    bottom: 0%;
+}
+.name{
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+}
+@media (max-width: 500px){
+    .div{
+        width: 94%;
+        margin-left: -47%;
+    }
+}
+@media (max-width: 400px){
+    .rectangle, .footer, .oval{
+        width: 100%;
+    }
+
+}
